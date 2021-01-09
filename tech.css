@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    width: 100%;
+    background-color: #323c52;
+  }
+  .currency img{
+      margin-left: 480px;
+      width:400px;
+      height: 300px;
+      margin-top: 50px;
+  }
+  .currency h1{
+      text-align: center;
+      font-size: 34px;
+      color:#f7c112;
+      margin-top: 90px;
+  }
+  .currency p {
+    text-align: center;
+    font-size: 24px;
+    color:#f5e28e;
+    margin-top: 30px;
+    word-spacing: 5px;
+  }
+  #tooti{
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-size: 34px;
+    color:#f7c112;
+    margin-top: 90px;
+  }
+  #tcp{
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    color:#fbfcfa
+    
+}
+  #ocp{
+      text-align: center;
+      margin-top: 20px;
+      word-spacing: 5px;
+      color: rgb(137, 243, 142);
+  }
+  
+  .mini{
+    color:rgb(150, 252, 125);
+    font-size: 22px;
+}
+.pp{
+ text-align: center;
+ font-family: 'Courier New', Courier, monospace;
+ color:#00ffff;
+ margin-top: 70px;
+}
+.puc{
+    margin-top: 30px;
+    margin-left: 580px;
+    padding: 10px 20px;
+    background-color: #eccf4c;
+    border:3px solid rgb(253, 253, 253);
+    font-size: 18px;
+}
+@media (min-width:359px) and (max-width: 768px){
+    .currency img{
+        margin-left: 60px;
+        width:300px;
+        height: 300px;
+        margin-top: 30px;
+        padding: 10px;
+        box-shadow:  0 0 10px #0ff72e, 0 0 10px #2cad28, 0 0 10px #38ee20;
+        
+    }
+    .currency h1{
+        text-align: center;
+        font-size: 28px;
+        color:#f7c112;
+        margin-top: 50px;
+    }
+    .currency p {
+      text-align: center;
+      font-size: 22px;
+      color:#44dfbd;
+      margin-top: 15px;
+      word-spacing: 5px;
+    }
+    #tcp{
+        text-align: center;
+        margin-top: 50px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        color:#fbfcfa
+        
+    }
+    #tooti{
+        text-align: center;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        font-size: 24px;
+        color:#f7c112;
+        margin-top: 40px;
+      }
+    #ocp{
+        text-align: center;
+        margin-top: 10px;
+        word-spacing: 3px;
+        color: rgb(137, 243, 142);
+    }
+    .puc{
+        margin-top: 30px;
+        margin-left: 125px;
+        padding: 8px 12px;
+        background-color: #9ff1e4;
+        border:3px solid rgb(223, 177, 25);
+        font-size: 18px;
+    }
+}
